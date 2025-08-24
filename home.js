@@ -1,3 +1,4 @@
+// add amount
 document.getElementById("add-money-btn").addEventListener('click',function(event){
 event.preventDefault()
 
@@ -40,4 +41,11 @@ document.getElementById("add-button").addEventListener("click",function(){
 document.getElementById("cash-out-button").addEventListener("click",function(){
     document.getElementById("add-money-parent").style.display = "none"
     document.getElementById("cash-out-parent").style.display = "block"
+})
+
+// log out feature
+
+document.getElementById("log-out-btn").addEventListener("click",function(event){
+    event.preventDefault()
+    window.location.href="./index.html"
 })
